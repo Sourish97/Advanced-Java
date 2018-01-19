@@ -1,0 +1,9 @@
+mvn archetype:generate -DgroupId=com.onkar -DartifactId=hel
+ -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+mvn clean install
+
+POM.xml its full form is Project Object Model
+
+for customizing your local maven repository you need to update settings.xml inside C:\apache-maven-3.5.0\conf 
+
